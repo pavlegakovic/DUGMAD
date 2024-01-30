@@ -8,6 +8,8 @@ import javafx.fxml.FXML;
 
 public class HelloController {
 
+    //komentar
+
     String message;
 
     @FXML
