@@ -16,5 +16,6 @@ public class HelloController {
     public void writeToLabel(String labelMessage)
     {
         defaultLabel.setText(labelMessage);
+
     }
 }
