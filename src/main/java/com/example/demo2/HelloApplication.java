@@ -20,6 +20,7 @@ public class HelloApplication extends Application {
 
         try {
             scene= new Scene(fxmlLoader.load(), 1800, 900);
+            stage.setFullScreen(true);
         }
 
         catch (Exception e)
@@ -29,6 +30,7 @@ public class HelloApplication extends Application {
 
         stage.setScene(scene);
         stage.show();
+
 
         HelloController helloController = fxmlLoader.getController();
         helloController.initializeSerial();
