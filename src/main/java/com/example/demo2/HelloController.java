@@ -26,7 +26,7 @@ public class HelloController {
     public void initializeSerial()
     {
         message = "";
-        SerialPort serialPort = SerialPort.getCommPort("COM6");
+        SerialPort serialPort = SerialPort.getCommPort("COM3");
         serialPort.setComPortParameters(9600,Byte.SIZE,SerialPort.ONE_STOP_BIT,SerialPort.NO_PARITY);
         serialPort.setComPortTimeouts(SerialPort.TIMEOUT_WRITE_BLOCKING,0,0);
 
